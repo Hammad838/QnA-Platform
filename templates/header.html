@@ -1,0 +1,29 @@
+<!-- nav -->
+<style>
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    nav > ul {
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
+        width: 15vw;
+    }
+</style>
+<nav>
+    <a href="/">
+        <h1>LOGO</h1>
+    </a>
+    <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>Profile</li>
+    </ul>
+    <form action="{% url 'home' %}" method="get">
+        <input type="text" name="q" id="" placeholder="Search Posts... ">
+    </form>
+</nav>
+
+<hr>
