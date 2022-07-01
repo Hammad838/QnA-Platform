@@ -1,2 +1,1 @@
-# QnA-Platform
-Simple query-solving platform for students
+Run Command: "pip install -r requirements.txt"
